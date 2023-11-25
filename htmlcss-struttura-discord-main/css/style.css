@@ -10,6 +10,14 @@
 body{
     background-color: white;
     
+    
+}
+.img-header{
+    background-image: url("/htmlcss-struttura-discord-main/img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+
+
 }
 
 /* header */
@@ -19,53 +27,78 @@ header{
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: #ADD8E6;
     border: none solid currentColor;
     
 }
 
 .header-top{
+    width: 150px;
+    margin-top: 50px;
+
     
-    border: 2px dashed black;
-    background-color: #DAA520;
-    width: 250px;
-    padding: 10px;
 }
 
 .link{
-    padding: 10px;
-    border: 2px dashed black;
-    background-color: #DAA520;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 15px;
+    margin-top: 50px;
+    color: white;
     width: 500px;
     text-align: center;
-    margin-right: auto;
+    margin-left: 150px;
+    margin-right: 180px;
+    
 }
 
 ul,li{
-    
     list-style: none;
     display: inline;
+    margin-inline: 5px;
+}
+
+
+.header-bot{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    border: 2px none black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 50px;
     
     
 }
-.header-bot{
+.mac{
     display: flex;
-    justify-content: right;
-    border: 2px dashed black;
-    background-color: #DAA520;
-    width: 250px;
-    padding: 10px;
-    
+    align-content: space-between;
+    margin-top: 25px;
+
+
+}
+
+.browser{
+    margin-top: 25px;
+
 }
 /* main */
 main{
+    background-position: 0 auto;
+    height: 1000px;
+    width: 100%;
+}
+.main-content{
     display: flex;
     justify-content: center;
-    background-color: #00008B;
     align-items: center;
-    height:500px;
+    
+    
     
 }
+
 /* box */
 .half-mid-box{
     display: flex;
@@ -92,10 +125,19 @@ main{
     padding: 40px;
 }
 .pink-box{
-    background-color: #EE82EE;
-    border: 2px dashed black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
     height: 400px;
     width: 900px;
+    margin-bottom: 300px;
+}
+.para-box{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
 }
 .blue-box{
     background-color: #1E90FF;

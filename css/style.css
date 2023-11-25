@@ -15,7 +15,7 @@ body{
 .img-header{
     background-image: url("/htmlcss-struttura-discord-main/img/jumbo.png");
     background-repeat: no-repeat;
-    background-size: 100% 800px;
+    background-size: 100% 700px;
 
 
 }
@@ -72,18 +72,38 @@ ul,li{
     
     
 }
-.mac{
+.div-space{
     display: flex;
-    align-content: space-between;
-    margin-top: 25px;
-
+    
 
 }
-
+.mac{
+    color: black;
+    border: 2px none white;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 50px;
+    margin-top: 25px;
+    padding: 25px;
+    margin-right: auto;
+}
 .browser{
+    color: white;
+    border: 2px none rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 50px;
     margin-top: 25px;
-
+    padding: 25px;
+    margin-top: 25px;
+    margin-left: auto;
+    
 }
+
 /* main */
 main{
     background-position: 0 auto;
@@ -94,13 +114,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+    height: 800px;
 }
 
 /* box */
 .half-mid-box{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,10 +159,14 @@ main{
     margin-top: 50px;
 }
 .blue-box{
-    background-color: #1E90FF;
-    border: 2px dashed black;
+    background-image: url("/htmlcss-struttura-discord-main/img/item1.svg");
+    background-repeat: no-repeat;
     height: 400px;
     width: 600px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
 .half-box{
     background-color: #FFC0CB;
@@ -206,7 +229,7 @@ footer{
     border-bottom: none;
     
 }
-span{
+.footer-container{
     display: flex;
     justify-content: space-between;
     align-items: center;

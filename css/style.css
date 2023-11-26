@@ -11,13 +11,15 @@ body{
     background-color: white;
     
     
+    
 }
 .img-header{
-    background-image: url("/htmlcss-struttura-discord-main/img/jumbo.png");
+    background-image: url("/img/jumbo.png");
+   
     background-repeat: no-repeat;
-    background-size: 100% 700px;
-
-
+    background-size: 100%;
+    
+    
 }
 
 /* header */
@@ -99,33 +101,45 @@ ul,li{
     border-radius: 50px;
     margin-top: 25px;
     padding: 25px;
-    margin-top: 25px;
     margin-left: auto;
     
 }
 
 /* main */
 main{
-    background-position: 0 auto;
-    height: 1000px;
-    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    
+    
 }
 .main-content{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    
 }
-
+h1{
+    margin-top: 30px;
+}
 /* box */
 .half-mid-box{
-    
+   
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 40px;
-
+    height: 500px;
+    width: 650px;
+    
+}
+.half-box{
+    margin-left: auto;
+    margin-right: auto;    
+    background-color: #FFC0CB;
+    border: 2px dashed black;
+    height: 400px;
+    width: 300px;
 
 }
 .mid-box{
@@ -134,7 +148,7 @@ main{
     align-items: center;
     background-color: #D3D3D3;
     padding: 40px;
-
+    
 }
 .bottom-box{
     display: flex;
@@ -149,7 +163,7 @@ main{
     font-size: xx-large;
     color: white;
     height: 400px;
-    width: 900px;
+    width: 800px;
     margin-bottom: 300px;
 }
 .para-box{
@@ -159,21 +173,13 @@ main{
     margin-top: 50px;
 }
 .blue-box{
-    background-image: url("/htmlcss-struttura-discord-main/img/item1.svg");
-    background-repeat: no-repeat;
+   
     height: 400px;
     width: 600px;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
-}
-.half-box{
-    background-color: #FFC0CB;
-    border: 2px dashed black;
-    height: 400px;
-    width: 300px;
-
 }
 .pink-mid-box{
     background-color: #FFC0CB;
